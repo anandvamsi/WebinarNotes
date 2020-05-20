@@ -1,0 +1,48 @@
+Webinar Techgig
+Spearker Ranjith Ri
+Topic SRE
+RoleModel::ben treynor
+
+
+SRE::- software egineering approch all are resoucres are all super reliable super fast all the time
+	highly automatic + self healing
+	SRE should spend up to 50% of their time doing "Ops" related work 50% on automation on automation development make more reliable,scalable and more efficient
+
+
+Increase Efficiency:- Remove the equations where human resources is linear with sevice complexity
+To embrace risk and promote business agility
+
+capacity planning:-
+	Organic growth and inorganic growth(scaling events)
+
+main 3 priciples
+	- maintain right balance b/w changes and reliability
+	- Automation
+	- Blameless postmortem
+
+
+##Toil:- means
+Repatitve
+No significant value
+Linearly grow with system
+
+
+### Automation
+Consistency - less mistakes
+Faster repairs:- less impact on production / Business
+Faster action :- automatic quicker than manual
+Time saving
+Platform:  shared among many accounts
+Reduce TCO of operation // total cost of operation
+
+##Blameless Postmortem
+"Individual are never the root cause of outage"
+	- Incentivized people to share the details
+	- prevents the problem to return
+
+
+SRE team high level routines
+Daily Standup
+Backlog gromming meeting
+Automation Sprint
+Demo and Restrospective(what is going good/bad in the current spring)
