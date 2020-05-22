@@ -52,4 +52,19 @@ packages:
      -  jq
 ---------------->>>>------------------------     
 
+Option2: if we want to automate this using via pipeline,copy below script file 20_carbobblack.cfg to /etc/cloud/cloud.cfg.d/
+
+# cat /etc/cloud/cloud.cfg.d/20_carbobblack.cfg
+#cloud-config
+runcmd:
+    - touch /tmp/testing
+    - cat /etc/passwd
+    - sh /home/ec2-user/date-command.sh > /home/ec2-user/data
+    - rm /home/ec2-user/date-command.sh
+groups:
+    - data1
+    - data2
+packages:
+     -  jq
+     - htop
 
